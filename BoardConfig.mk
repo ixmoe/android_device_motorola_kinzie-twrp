@@ -99,13 +99,13 @@ TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_DEFAULT_BRIGHTNESS := 80
 TARGET_RECOVERY_PIXEL_FORMAT := RGBA_8888
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
-#TW_INCLUDE_NTFS_3G := true
+TW_INCLUDE_NTFS_3G := true
 TW_NO_USB_STORAGE := true
 #TW_USE_TOOLBOX    := true
 
 # Asian region languages
 TW_EXTRA_LANGUAGES := true
-TW_DEFAULT_LANGUAGE := zh_CN
+#TW_DEFAULT_LANGUAGE := zh_CN
 
 # Encryption support
 TW_INCLUDE_CRYPTO := true
